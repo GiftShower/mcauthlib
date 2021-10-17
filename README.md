@@ -1,4 +1,4 @@
-# mcauthlib
+
 Mojang's Yggdrasil authentication for Dart.
 
 ## Features
