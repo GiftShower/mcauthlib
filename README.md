@@ -1,5 +1,6 @@
+![logo](https://github.com/GiftShower/mcauthlib/blob/master/image/mcAuthLib.png)
 
-Mojang's Yggdrasil authentication for Dart.
+# Mojang's Yggdrasil authentication for Dart.
 
 ## Features
 
