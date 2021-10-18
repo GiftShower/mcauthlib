@@ -1,6 +1,7 @@
 name: mcauthlib
-description: A starting point for Dart libraries or applications.
+description: Mojang's Yggdrasil authentication for Dart.
 version: 1.0.0
+repository: https://github.com/GiftShower/mcauthlib
 # homepage: https://www.example.com
 
 environment:

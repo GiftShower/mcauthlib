@@ -1,10 +1,11 @@
 import 'package:mcauthlib/mcauthlib.dart';
 
 void main() async {
-  //This example is how to authenticate, refresh, validate and sign out.
+  //This example is how to authenticate with this library.
 
   //First create MojangAuth instance.
   final auth = MojangAuth();
+
   //Then, create User with authtype keyword.
   //The first parameter is email and the second one is password.
   var user = User.authType("lorem@ipsum.com", "dolorsitamet");
@@ -20,5 +21,4 @@ void main() async {
     user.clientToken = result['clientToken'];
     user.accessToken = result['accessToken'];
   }
-  //TODO: More.
 }

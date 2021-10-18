@@ -35,6 +35,8 @@ class MojangAuth {
   }
 
   ///Refresh authentication. User should be created with User.refreshtype()
+  ///clientToken needs to be identical to the one used to obtain the accessToken
+  ///in the first place.
   Future<Map<String, dynamic>> refresh(User target) async {
     var url = Uri.parse(baseURL + '/refresh');
     Map<String, String> payload = {
