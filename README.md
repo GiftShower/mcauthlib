@@ -1,7 +1,9 @@
 ![logo](https://github.com/GiftShower/mcauthlib/blob/master/image/mcAuthLib.png)
 
 # Mojang's Yggdrasil authentication for Dart.
-![ver](https://img.shields.io/pub/v/mcauthlib)
+
+<a href="https://pub.dev/packages/mcauthlib"><img alt="Pub Version" src="https://img.shields.io/pub/v/mcauthlib"></a>
+
 ## Features
 
 https://wiki.vg/Authentication
